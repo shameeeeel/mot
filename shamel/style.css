@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)100%, rgba(0,0,0,0.8)100%), url(pictures/21.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.home{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    
+}
+.home h1{
+    font-family: Verdana,Arial;
+    font-size: 3em;
+    font-style: italic;
+}
+.home p{
+    font-family: Verdana,Arial;
+    font-style: italic;
+}
+
+.start{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,3), rgba(0,0,0,.3)), url(pictures/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.happy h1{
+    color: rgb(184, 160, 23);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.mainabout{
+    background: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about {
+    color: white;
+    height: 100vh;
+}
+.about p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    width: 450px;
+    font-size: .85em;
+}
+.car{
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
